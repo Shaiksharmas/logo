@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Attractive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Our Modern Website</h1>
+            <p>Discover amazing features and services tailored for you</p>
+            <a href="#features" class="cta-button">Explore More</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <div class="counter" data-target="250">0</div>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <div class="counter" data-target="500">0</div>
+            <p>Projects Completed</p>
+        </div>
+        <div class="stat-item">
+            <div class="counter" data-target="50">0</div>
+            <p>Awards Won</p>
+        </div>
+        <div class="stat-item">
+            <div class="counter" data-target="99">0</div>
+            <p>Satisfaction Rate</p>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast Performance</h3>
+                <p>Lightning fast loading times and smooth animations.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Looks great on any device, from phones to desktops.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Modern UI</h3>
+                <p>Clean, minimalist design with intuitive navigation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Client">
+                <p>"This website transformed our business! The design is stunning and the performance is incredible."</p>
+                <h4>Sarah Johnson</h4>
+                <span>CEO, TechSolutions</span>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client">
+                <p>"Working with this team was a game-changer. They delivered beyond our expectations."</p>
+                <h4>Michael Chen</h4>
+                <span>Marketing Director</span>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client">
+                <p>"The attention to detail and user experience is unmatched. Highly recommended!"</p>
+                <h4>Emily Rodriguez</h4>
+                <span>Product Manager</span>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots"></div>
+            <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Hello. I'm S.J.Sharmas vali a passionate member dedicated to creating beautiful, functional websites that help businesses grow. My approach combines cutting-edge technology with user-centered design principles.</p>
+            <p>With over 2 years of experience in web development, I've helped hundreds of clients establish their online presence.</p>
+            
+            <div class="skills">
+                <h3>Our Skills</h3>
+                <div class="skill-item">
+                    <span>Web Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Frontend Development</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>UI/UX Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Our team">
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Our Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="app">Mobile App</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166" alt="Project">
+                <div class="project-overlay">
+                    <h3>E-commerce Website</h3>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="project-card" data-category="app">
+                <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6" alt="Project">
+                <div class="project-overlay">
+                    <h3>Fitness App</h3>
+                    <p>Mobile App</p>
+                </div>
+            </div>
+            <div class="project-card" data-category="branding">
+                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d" alt="Project">
+                <div class="project-overlay">
+                    <h3>Coffee Brand</h3>
+                    <p>Branding</p>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d" alt="Project">
+                <div class="project-overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <div class="price">$99<span>/month</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> 5 Pages</li>
+                    <li><i class="fas fa-check"></i> Basic SEO</li>
+                    <li><i class="fas fa-times"></i> CMS Integration</li>
+                    <li><i class="fas fa-times"></i> E-commerce</li>
+                </ul>
+                <a href="#contact" class="cta-button outline">Get Started</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="popular-badge">Popular</div>
+                <h3>Professional</h3>
+                <div class="price">$299<span>/month</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> Up to 15 Pages</li>
+                    <li><i class="fas fa-check"></i> Advanced SEO</li>
+                    <li><i class="fas fa-check"></i> CMS Integration</li>
+                    <li><i class="fas fa-times"></i> E-commerce</li>
+                </ul>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <div class="price">$599<span>/month</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                    <li><i class="fas fa-check"></i> Premium SEO</li>
+                    <li><i class="fas fa-check"></i> CMS Integration</li>
+                    <li><i class="fas fa-check"></i> E-commerce</li>
+                </ul>
+                <a href="#contact" class="cta-button outline">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates and special offers delivered to your inbox.</p>
+        </div>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Brigade Meadows,Bangalore</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>shaiksharmas024@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 9491590874</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="live-chat">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-window">
+            <div class="chat-header">
+                <h4>Live Chat</h4>
+                <button class="close-chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages">
+                <div class="message agent">
+                    <p>Hello! How can we help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>We create beautiful, functional websites that help businesses grow and succeed in the digital world.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Digital Marketing</li>
+                    <li>SEO Services</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Modern Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
